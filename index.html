@@ -1,0 +1,135 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="./resources/css/index.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="./resources/javascript/main.js"></script>
+</head>
+
+<body>
+
+    <!-- Section that contains the main menu   -->
+    <header>
+
+        <!-- Container for the header -->
+        <div class="header-container">
+
+            <!-- Section that contains the main menu's logo -->
+            <div class="logo-image">
+                <a href="./index.html"><img src="./resources/logo_mfg.webp" alt="my website logo"></a>
+            </div>
+
+            <!-- Section that contains the navigation elements of the menu -->
+            <nav class="header-navigation">
+                
+                <!-- Desktop -->
+                <ul class="desktop">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="./other-pages/contact.html">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile -->
+                <div class="mobile dropdownMenu">
+                    <button id="dropdownBtn">Menu</button>
+                </div>
+                <ul class="dropdownBtnContent hidden" id="dropdownBtnMenu">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="./other-pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Section that contains the search bar -->
+            <!-- <div>
+                <input type="search" placeholder="Search...">
+            <div> -->
+        
+        </div>
+
+    </header>
+
+    <main>
+        <!-- About me section -->
+        <div id="about-me">
+            <div class="text-container">
+                <h2>About Me</h2>
+                <p>Hi! I'm Ada, Countess of Lovelace and am an English mathematician and writer, chiefly known for my work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.
+
+                    I am one of the first to recognize that machines have applications beyond pure calculation, and to have published the first algorithm intended to be carried out by such a machine.
+                    
+                    In my free time I like to read about scientific developments, mathematics, and computational mathematics. I also like to take my chances of winning big.
+                    
+                    Fun fact! I've been programing for 6,574,741,993 seconds!</p>
+            </div>
+            <div class="image-container">
+                <img src="./resources/About-me-image.jfif" alt="Image of myself">
+            </div>
+        </div>
+
+        <!-- Projects section -->
+        <div id="projects">
+            <div class="text-container">
+                <h2>Projects</h2>
+                <ul>
+                    <li id="dropdownParent">
+                        <a href="#" class="dropdownLink">First Project</a>
+                        <div class="dropdownContent hidden">
+                            <p>This is more content that shows when the link is clicked.</p>
+                        </div>
+                    </li>
+                    <li id="dropdownParent">
+                        <a href="#" class="dropdownLink">Second Project</a>
+                        <div class="dropdownContent hidden">
+                            <p>Even more content!</p>
+                        </div>
+                    </li>
+                    <li id="dropdownParent">
+                        <a href="#" class="dropdownLink">Third Project</a>
+                        <div class="dropdownContent hidden">
+                            <p>And even more and more!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Skills section -->
+        <div id="skills">
+            <div class="text-container">
+                <h2>Skills</h2>
+                <ul>
+                    <li class="skills-img chrome">
+                        <img src="https://seeklogo.com/images/G/google-chrome-black-logo-295FB76F85-seeklogo.com.png">
+                    </li>
+                    <li class="skills-img js">
+                        <img src="https://www.svgrepo.com/show/327372/logo-javascript.svg">
+                    </li>
+                    <li class="skills-img html">
+                        <img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png">
+                    </li>
+                    <li class="skills-img css">
+                        <img src="https://brandslogos.com/wp-content/uploads/images/large/css-logo-black-and-white.png">
+                    </li>
+                    <li class="skills-img git">
+                        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.png">
+                    </li>
+                    <li class="skills-img github">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        </div>
+
+    </main>
+
+</body>
