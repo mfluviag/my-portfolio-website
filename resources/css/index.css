@@ -67,7 +67,6 @@ main {
 }
 
 #about-me .text-container {
-    /* width: 80%; */
     margin: 0 3rem 0 0;
 }
 
@@ -76,16 +75,13 @@ main {
 }
 
 #about-me .image-container {
-    /* width: 20%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin: 0 3rem; */
 }
 
 #about-me .image-container img {
     width: 15rem;
-    /* margin-top: 3rem; */
     border-radius: 5px;
 }
 
@@ -127,7 +123,6 @@ main {
 }
 
 #contact .text-container {
-    /* width: 80%; */
     margin: 0 3rem 0 0;
 }
 
@@ -167,8 +162,6 @@ main {
     width: 0;
     min-width: 0;
     display: inline-block;
-    /* padding-block: 0;
-    padding-inline: 0; */
     height: 1rem;
 }
 
